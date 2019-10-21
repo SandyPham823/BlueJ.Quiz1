@@ -34,7 +34,7 @@ public class LoopFun
             }
                 else if (phrase.charAt(x) != ' ' && a == true)
                 {
-                    acro += (phrase.charAt(x));
+                    acro += phrase.toUpperCase().charAt(x);
                     a = false;
     }
 }

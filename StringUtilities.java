@@ -27,7 +27,8 @@ public class StringUtilities {
      */
     public String reverse(String valueToBeReversed) {
         String word = valueToBeReversed;
-        return null;
+        
+        return word;
     }
 
     /**
